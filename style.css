@@ -59,8 +59,7 @@ body{
     color: currentcolor;
     font-size: 22px;
     font-weight: 700;
-    font-family: cursive;
-   
+    font-family: cursive;  
 }
 
 .navbar li a:hover{
@@ -70,5 +69,19 @@ body{
     font-size:26px;  
 }
 
+/* BUTTON */
 
+.btn
+{
+    cursor: pointer;
+    padding:8px 18px;
+    margin: 0 4px;
+    border-radius:10px;
+    font-size:15px;
+    font-family: -webkit-pictograph;
+}
 
+.btn:hover{
+    background-color: #7e97c5;
+    font-size: larger;
+}
