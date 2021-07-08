@@ -15,7 +15,7 @@ body{
 
 
 .right{
-    border:2px solid rgb(0, 217, 255);
+    /* border:2px solid rgb(0, 217, 255); */
     display: inline-block;
     position: absolute;
     right:1%;
@@ -23,7 +23,7 @@ body{
 }
 
 .left{
-    border:2px solid red;
+    /* border:2px solid red; */
     display: inline-block;
     position: absolute;
     top:5%;
@@ -31,14 +31,15 @@ body{
 }
 
 .mid{
-    border:2px solid rgb(38, 255, 0);
+    /* border:2px solid rgb(38, 255, 0); */
     display: block;
     width:48%;
-    margin: 3% auto;
+    margin:auto;
 }
 
 .left img{
     width:126px;
+    cursor: pointer;
 }
 
 .navbar{
@@ -83,5 +84,43 @@ body{
 
 .btn:hover{
     background-color: #7e97c5;
-    font-size: larger;
+    border: 3px solid purple;
 }
+
+
+/* CONTAINER */
+
+.container{
+    border: 3px solid rgb(240, 237, 237);
+    padding: 17px 20px;
+    width: 33%;
+    border-radius: 23px;
+    height: 70vh;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.container h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+/* FORM */
+
+.form-group input{
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    width: 371px; 
+}
+
+.form-group button
+{
+    display: block;
+    margin:auto;
+    width: 84%;
+    font-size:20px;
+} 
